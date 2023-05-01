@@ -148,5 +148,5 @@ const handleIce = (data) => {
 
 const handleAddStream = (data) => {
   const peerFace = document.getElementById("peerFace");
-  peerStream.srcObject = data.stream;
+  peerFace.srcObject = data.stream;
 };
